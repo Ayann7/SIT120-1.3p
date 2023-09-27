@@ -1,0 +1,155 @@
+
+/* Style for HomeView.vue */
+.home-page {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for AboutView.vue */
+  .about-me-page {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-image {
+    margin-right: 20px;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+  }
+  
+  .about-content {
+    text-align: left;
+  }
+  
+  .about-content h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .download-btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .download-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for ContactView.vue */
+  .contact-page {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contact-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    margin-right: 20px;
+    display: inline-block;
+  }
+  
+  /* Style for FooterComponent.vue */
+  .amazing-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  /* Media Queries for Responsiveness (Adjust as needed) */
+  @media (max-width: 768px) {
+    .footer-section {
+      flex-basis: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer-section {
+      flex-basis: 100%;
+    }
+  }
+  
